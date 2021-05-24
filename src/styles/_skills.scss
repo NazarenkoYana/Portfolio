@@ -1,0 +1,63 @@
+.skills {
+  padding: 50px 0;
+
+  i {
+    font-size: 60px;
+    color: lightgray;
+
+    &.fa-html5:hover {
+      color: #dd4b24;
+      cursor: pointer;
+    }
+
+    &.fa-css3-alt:hover {
+      color: #254bdd;
+      cursor: pointer;
+    }
+
+    &.fa-bootstrap:hover {
+      color: #533b78;
+      cursor: pointer;
+    }
+
+    &.fa-sass:hover {
+      color: #cf649a;
+      cursor: pointer;
+    }
+
+    &.fa-js-square:hover {
+      color: #efd81c;
+      cursor: pointer;
+    }
+
+    &.fa-github-square:hover {
+      color: black;
+      cursor: pointer;
+    }
+
+    &.fa-angular:hover {
+      color: #c3002f;
+      cursor: pointer;
+    }
+
+    &.fa-figma:hover {
+      color: black;
+      cursor: pointer;
+    }
+  }
+
+  a {
+    cursor: pointer;
+
+    img {
+      width: 35px;
+      height: 50px;
+      filter: grayscale(1) opacity(50%);
+
+      &:hover {
+        filter: none;
+      }
+    }
+  }
+}
+

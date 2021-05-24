@@ -1,0 +1,55 @@
+.about-me {
+  background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url('../images/background-header.png') center;
+  background-size: cover;
+  padding: 100px 0;
+
+  .about-me-items {
+    text-align: center;
+    margin: 0 0 40px 0;
+    color: #ffffff;
+    font-size: 45px;
+  }
+
+  .about-me-content {
+    margin: 0;
+    color: #ffffff;
+
+    .about-me-content-name {
+      margin-bottom: 40px;
+      font-size: 30px;
+    }
+
+    .about-me-content-knowledge {
+      margin: 0;
+    }
+  }
+
+  .about-me-photo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      display: block;
+      width: 245px;
+      height: 307px;
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    .about-me-content .about-me-content-name {
+      font-size: 20px;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    .about-me-content .about-me-content-name {
+      text-align: center;
+    }
+    .about-me-content .about-me-content-knowledge {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  }
+}
