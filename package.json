@@ -11,8 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^5.0.0",
-    "ws": "^7.4.4"
+    "local-web-server": "^4.2.1"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
